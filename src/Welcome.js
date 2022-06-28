@@ -1,11 +1,10 @@
 import React from 'react'
+import Shop from './Shop'
 
 const Welcome = () => {
   return (
     <>
-        <div>Welcome</div>
-
-    <a href='/shop'>Go to Shopping --</a>
+        <Shop/>
     </>
     
   )
